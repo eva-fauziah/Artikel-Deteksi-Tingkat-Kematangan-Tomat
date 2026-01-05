@@ -11,7 +11,7 @@ Muhammad Fikri Firmansyah
 **Proyek Akhir Semester – Computer Vision**
 <p align="center">
   <img src="contoh_hasil_testing.JPG" width="30%">
-  <img src="gambar_contoh_deteksi_lima.JPG" width="50%">
+  <img src="gambar_contoh_deteksi_lima.JPG" width="70%">
 </p>
 
 
@@ -140,6 +140,21 @@ Notebook ini berisi proses:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HNkBKiMZ5G526bb8oSrvKHK1k9KyCdWt?usp=sharing)
 
+## 🚀 Demo Model (Google Colab)
+<p align="center">
+  <img src="gambar_contoh_deteksi_fix.JPG" width="30%">
+</p>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/drive/17EFfH32_r2t9UXdSpfnyNOXeBllJlfSZ?usp=sharing)
+
+## Dataset
+
+Dataset yang digunakan dalam penelitian ini mengacu pada sumber publik dari Kaggle yang menyediakan citra tomat matang dan mentah untuk keperluan deteksi objek.
+
+**Sumber dataset:**  
+[Dataset Deteksi Tomat (Kaggle)](https://www.kaggle.com/code/sumn2u/yolo-v8-ripe-and-unripe-tomatoes-detection)
+
 
 ## 5. Kesimpulan dan Insight
 Berdasarkan hasil evaluasi menggunakan **Confusion Matrix**, model menunjukkan kemampuan klasifikasi yang sangat kuat. Tidak ditemukan kasus tomat matang yang salah diklasifikasikan sebagai tomat mentah. Meskipun terdapat tantangan pada kondisi oklusi (objek terhalang daun atau batang), sistem secara keseluruhan telah menunjukkan performa yang sangat layak untuk menggantikan inspeksi manual.
@@ -150,11 +165,13 @@ Berdasarkan hasil evaluasi menggunakan **Confusion Matrix**, model menunjukkan k
 Inovasi ini membuktikan bahwa penerapan **Computer Vision dan Deep Learning** mampu meningkatkan efisiensi serta objektivitas dalam industri pertanian, khususnya di Indonesia. Kami berharap pengembangan sistem ini dapat menjadi langkah awal menuju otomatisasi proses pangan yang lebih cerdas, modern, dan berkelanjutan.
 
 ---
-## Dataset
+## Daftar Referensi
 
-Dataset yang digunakan dalam penelitian ini mengacu pada sumber publik dari Kaggle yang menyediakan citra tomat matang dan mentah untuk keperluan deteksi objek.
-
-**Sumber dataset:**  
-[Dataset Deteksi Tomat (Kaggle)](https://www.kaggle.com/code/sumn2u/yolo-v8-ripe-and-unripe-tomatoes-detection)
+1. Andityaa, I. G. M. W., & Mastrika, G. A. V. (2025). *Klasifikasi Kematangan Tomat pada Citra Digital Menggunakan DeiT (Data-efficient Image Transformer).* **JNATIA (Jurnal Nasional Teknologi Informasi dan Aplikasinya), 3**(4), 737–744.  
+2. Aras, S., Tanra, P., & Bazhar, M. (2024). *Detection of Tomato Fruit Ripeness Level Using YOLOv5.* **MALCOM: Indonesian Journal of Machine Learning and Computer Science, 4**(2), 623–628.  
+3. Alfian, L., & Paputungan, I. V. (2025). *Deteksi Kematangan Tomat Menggunakan Algoritma Deteksi Objek (YOLO) 11.* **Edusaintek: Jurnal Pendidikan, Sains dan Teknologi, 12**(4), 1923–1938.  
+4. Fauzi, R. D., & Fachrie, M. (2024). *Sistem Prediksi Tingkat Kematangan Buah Tomat Menggunakan Arsitektur VGG16.* **Djtechno: Jurnal Teknologi Informasi, 5**(3), 438–446.  
+5. Wang, S., Xiang, J., Chen, D., & Zhang, C. (2024). *A Method for Detecting Tomato Maturity Based on Deep Learning.* **Applied Sciences, 14**(23), 11111.  
+6. Yang, Z., Li, Y., Han, Q., Wang, H., Li, C., & Wu, Z. (2025). *A Method for Tomato Ripeness Recognition and Detection Based on an Improved YOLOv8 Model.* **Horticulturae, 11**(1), 15.
 
 
