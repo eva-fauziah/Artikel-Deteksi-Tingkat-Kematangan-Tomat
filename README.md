@@ -47,9 +47,16 @@ Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selam
 <p align="center">
   <img src="sobel_dan_canny.JPG" width="70%">
 </p>
-Kami menguji metode deteksi tepi seperti **Canny** dan **Sobel** untuk memahami kontur dan bentuk tomat. Analisis ini membantu memastikan bahwa model mampu mengenali batas objek dengan lebih baik, terutama pada kondisi lingkungan yang kompleks atau latar belakang yang bervariasi.
+Kami menguji metode deteksi tepi seperti canny dan Sobel untuk memahami kontur dan bentuk tomat. Analisis ini membantu memastikan bahwa model mampu mengenali batas objek dengan lebih baik, terutama pada kondisi lingkungan yang kompleks atau latar belakang yang bervariasi.
+<p align="center">
+  <img src="kerapatan_tepi.JPG" width="70%">
+</p>
+Dari uraian di atas, kita dapat melihat frekuensi dan kepadatan tepi dari setiap teknik. Untuk mendeteksi detail yang lebih halus atau tepi yang lebih kuat, frekuensi yang lebih tinggi lebih baik.
 
 ### 2.3 Dataset Seimbang
+<p align="center">
+  <img src="distribusi_kelas.JPG" width="70%">
+</p>
 Dataset yang digunakan terdiri dari:
 - **440 objek tomat mentah**
 - **429 objek tomat matang**
@@ -57,13 +64,20 @@ Dataset yang digunakan terdiri dari:
 Distribusi yang seimbang ini penting untuk menghindari bias model terhadap salah satu kelas dan meningkatkan kemampuan generalisasi sistem.
 
 ---
+### 2.4 Rata-Rata Dimensi Gambar
+<p align="center">
+  <img src="rata-rata_lebar_dan_tinggi_tomat.JPG" width="70%">
+</p>
+Lebar gambar 1374,88 piksel dan Tinggi 991,36 piksel. Analisis ukuran gambar dataset ini juga penting agar memahami karakteristik resolusi data.
+
+---
 
 ## 3. Proses Pelatihan dan Evaluasi Model
 Model dilatih selama **150 epoch** dengan dukungan GPU. Evaluasi performa dilakukan menggunakan metrik **Intersection over Union (IoU)**, yang mengukur tingkat tumpang tindih antara bounding box prediksi dan ground truth:
 
-\[
-IoU = \frac{Area\ of\ Overlap}{Area\ of\ Union}
-\]
+<p align="center">
+  <img src="rumus_iou.JPG" width="70%">
+</p>
 
 ### 3.1 Hasil Performa Model
 Pengujian pada data yang benar-benar baru menunjukkan hasil yang sangat memuaskan:
