@@ -32,9 +32,9 @@ Sebelum proses pelatihan model, kami melakukan analisis mendalam terhadap **177 
 ### 2.1 Analisis Warna (RGB)
 Hasil analisis menunjukkan bahwa:
 - **Tomat matang** memiliki dominansi kanal **Merah (Red)** yang kuat.
-  ![Histogram RGB Tomat Matang](images/rgb_matang.png)
+*![Histogram RGB Tomat Matang](images/gambar warna garis tomat matang.jpg)*
 - **Tomat mentah** lebih didominasi kanal **Hijau (Green)**.
-  ![Histogram RGB Tomat Mentah](images/rgb_mentah.png)
+  *![Histogram RGB Tomat Mentah](images/gambar warna garis tomat mentah.jpg)*
 Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selama pematangan tomat. Informasi warna tersebut menjadi fitur penting yang dimanfaatkan oleh model untuk membedakan tingkat kematangan.
 
 ### 2.2 Deteksi Tepi (Edge Detection)
