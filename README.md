@@ -44,7 +44,9 @@ Hasil analisis menunjukkan bahwa:
 Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selama pematangan tomat. Informasi warna tersebut menjadi fitur penting yang dimanfaatkan oleh model untuk membedakan tingkat kematangan.
 
 ### 2.2 Deteksi Tepi (Edge Detection)
-![Deteksi Tepi Canny & Sobel](images/canny_sobel.png)
+<p align="center">
+  <img src="sobel_dan_canny.JPG" width="70%">
+</p>
 Kami menguji metode deteksi tepi seperti **Canny** dan **Sobel** untuk memahami kontur dan bentuk tomat. Analisis ini membantu memastikan bahwa model mampu mengenali batas objek dengan lebih baik, terutama pada kondisi lingkungan yang kompleks atau latar belakang yang bervariasi.
 
 ### 2.3 Dataset Seimbang
