@@ -141,16 +141,17 @@ Notebook ini berisi proses:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HNkBKiMZ5G526bb8oSrvKHK1k9KyCdWt?usp=sharing)
 
 ## Demo Model
-### Hasil Web Kamera
+#### Hasil Web Kamera
 <p align="center">
   <img src="gambar_contoh_deteksi_fix.JPG" width="30%">
 </p>
 
-### Hasil Video
+#### Hasil Video
 <p align="center">
   <img src="gambar_video.JPG" width="30%">
 </p>
 
+#### Deteksi Tomat 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17EFfH32_r2t9UXdSpfnyNOXeBllJlfSZ?usp=sharing)
 
 
