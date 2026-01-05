@@ -11,7 +11,7 @@ Muhammad Fikri Firmansyah
 **Proyek Akhir Semester – Computer Vision**
 <p align="center">
   <img src="contoh_hasil_testing.JPG" width="30%">
-  <img src="gambar_contoh_deteksi_lima.JPG" width="30%">
+  <img src="gambar_contoh_deteksi_lima.JPG" width="50%">
 </p>
 
 
@@ -152,10 +152,9 @@ Inovasi ini membuktikan bahwa penerapan **Computer Vision dan Deep Learning** ma
 ---
 ## Dataset
 
-Dataset yang digunakan pada penelitian ini mengacu pada sumber publik Kaggle:
+Dataset yang digunakan dalam penelitian ini mengacu pada sumber publik dari Kaggle yang menyediakan citra tomat matang dan mentah untuk keperluan deteksi objek.
 
-🔗 https://www.kaggle.com/code/sumn2u/yolo-v8-ripe-and-unripe-tomatoes-detection
-
-Dataset ini berisi citra tomat matang dan mentah yang digunakan sebagai referensi dalam proses pelatihan dan evaluasi model YOLOv8.
+**Sumber dataset:**  
+[Dataset Deteksi Tomat (Kaggle)](https://www.kaggle.com/code/sumn2u/yolo-v8-ripe-and-unripe-tomatoes-detection)
 
 
