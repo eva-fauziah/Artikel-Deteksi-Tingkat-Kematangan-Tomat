@@ -9,7 +9,10 @@ Komay Alamsyah
 Muhammad Fikri Firmansyah  
 
 **Proyek Akhir Semester – Computer Vision**
-
+<p align="center">
+  <img src="contoh_hasil_testing.JPG" width="30%">
+  <img src="gambar_contoh_deteksi_lima" width="30%">
+</p>
 ---
 
 ## Abstrak
@@ -45,7 +48,7 @@ Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selam
 
 ### 2.2 Deteksi Tepi (Edge Detection)
 <p align="center">
-  <img src="sobel_dan_canny.JPG" width="70%">
+  <img src="sobel_dan_canny.JPG" width="50%">
 </p>
 Kami menguji metode deteksi tepi seperti canny dan Sobel untuk memahami kontur dan bentuk tomat. Analisis ini membantu memastikan bahwa model mampu mengenali batas objek dengan lebih baik, terutama pada kondisi lingkungan yang kompleks atau latar belakang yang bervariasi.
 <p align="center">
@@ -64,7 +67,7 @@ Distribusi yang seimbang ini penting untuk menghindari bias model terhadap salah
 ---
 ### 2.4 Rata-Rata Dimensi Gambar
 <p align="center">
-  <img src="rata-rata_lebar_dan_tinggi_tomat.JPG" width="70%">
+  <img src="rata-rata_lebar_dan_tinggi_tomat.JPG" width="50%">
 </p>
 Lebar gambar 1374,88 piksel dan Tinggi 991,36 piksel. Analisis ukuran gambar dataset ini juga penting agar memahami karakteristik resolusi data.
 
@@ -89,7 +92,7 @@ Pengujian pada data yang benar-benar baru menunjukkan hasil yang sangat memuaska
 ---
 ### 3.2 Hasil Confusion Matrix
 <p align="center">
-  <img src="hasil_confusion_matrix.JPG" width="30%">
+  <img src="hasil_confusion_matrix.JPG" width="70%">
 </p>
 Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat baik pada data evaluasi, ditandai dengan tingginya jumlah prediksi benar pada kelas tomat mentah dan matang serta tidak ditemukannya kesalahan deteksi tomat matang sebagai mentah. Kesalahan yang terjadi sebagian besar disebabkan oleh faktor oklusi dan kondisi pencahayaan yang menyebabkan objek tidak terdeteksi (False Negative), serta kompleksitas latar belakang perkebunan yang memicu kesalahan deteksi objek non-tomat sebagai tomat (False Positive).
 ---
@@ -115,8 +118,8 @@ Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat 
 |  | Inferensi | 24,3 ms | 27,1 ms |
 |  | Postprocessing | 1,6 ms | 2,2 ms |
 
-Model YOLOv8 menunjukkan generalisasi yang baik karena performa pada tahap evaluasi setara atau sedikit lebih baik dibandingkan training, dengan nilai akurasi (mAP) yang stabil dan konsisten. Model sangat andal mendeteksi tomat mentah (recall tinggi) dan akurat dalam mendeteksi tomat matang (precision tinggi), dengan peningkatan kemampuan menemukan objek matang pada data evaluasi. Dari sisi kecepatan, meskipun inferensi evaluasi sedikit lebih lambat, model tetap efisien dan layak untuk aplikasi real-time.
 ---
+Model YOLOv8 menunjukkan generalisasi yang baik karena performa pada tahap evaluasi setara atau sedikit lebih baik dibandingkan training, dengan nilai akurasi (mAP) yang stabil dan konsisten. Model sangat andal mendeteksi tomat mentah (recall tinggi) dan akurat dalam mendeteksi tomat matang (precision tinggi), dengan peningkatan kemampuan menemukan objek matang pada data evaluasi. Dari sisi kecepatan, meskipun inferensi evaluasi sedikit lebih lambat, model tetap efisien dan layak untuk aplikasi real-time.
 
 ## 4. Keunggulan Sistem Real-Time
 Salah satu keunggulan utama sistem ini adalah **kecepatan inferensi**. Model hanya membutuhkan **24,3 ms** untuk satu kali proses deteksi, yang berarti mampu memproses sekitar **40 frame per detik (FPS)**.
@@ -127,6 +130,16 @@ Kecepatan ini menjadikan sistem sangat ideal untuk:
 - Sistem monitoring pertanian berbasis kamera
 
 ---
+##  Notebook Eksperimen
+
+Notebook ini berisi proses:
+- Preprocessing dataset
+- Training YOLOv8
+- Evaluasi model
+- Visualisasi hasil deteksi
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/drive/1HNkBKiMZ5G526bb8oSrvKHK1k9KyCdWt?usp=sharing)
 
 ## 5. Kesimpulan dan Insight
 Berdasarkan hasil evaluasi menggunakan **Confusion Matrix**, model menunjukkan kemampuan klasifikasi yang sangat kuat. Tidak ditemukan kasus tomat matang yang salah diklasifikasikan sebagai tomat mentah. Meskipun terdapat tantangan pada kondisi oklusi (objek terhalang daun atau batang), sistem secara keseluruhan telah menunjukkan performa yang sangat layak untuk menggantikan inspeksi manual.
