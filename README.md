@@ -10,8 +10,8 @@ Muhammad Fikri Firmansyah
 
 **Proyek Akhir Semester – Computer Vision**
 <p align="center">
-  <img src="contoh_hasil_testing.JPG" width="20%">
-  <img src="gambar_contoh_deteksi_lima.JPG" width="60%">
+  <img src="contoh_hasil_testing.JPG" width="30%">
+  <img src="gambar_contoh_deteksi_lima.JPG" width="55%">
 </p>
 
 
@@ -142,7 +142,8 @@ Notebook ini berisi proses:
 
 ## Demo Model
 <p align="center">
-  <img src="gambar_contoh_deteksi_fix.JPG" width="30%">
+  <img src="gambar_contoh_deteksi_fix.JPG" width="40%">
+  <img src="gambar_video.JPG" width="40%">
 </p>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17EFfH32_r2t9UXdSpfnyNOXeBllJlfSZ?usp=sharing)
