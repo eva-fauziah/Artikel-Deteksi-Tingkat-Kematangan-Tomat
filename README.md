@@ -11,9 +11,9 @@ Muhammad Fikri Firmansyah
 **Proyek Akhir Semester – Computer Vision**
 <p align="center">
   <img src="contoh_hasil_testing.JPG" width="30%">
-  <img src="gambar_contoh_deteksi_lima" width="30%">
+  <img src="gambar_contoh_deteksi_lima.JPG" width="30%">
 </p>
----
+
 
 ## Abstrak
 Di industri pangan skala besar, kualitas tomat sangat ditentukan oleh ketepatan waktu panen. Namun, proses penentuan tingkat kematangan tomat secara manual masih bergantung pada inspeksi visual manusia yang bersifat subjektif, tidak konsisten, dan memakan waktu. Kesalahan penilaian ini dapat menyebabkan kerugian ekonomi akibat panen yang terlalu dini atau terlambat.
@@ -48,7 +48,7 @@ Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selam
 
 ### 2.2 Deteksi Tepi (Edge Detection)
 <p align="center">
-  <img src="sobel_dan_canny.JPG" width="50%">
+  <img src="sobel_dan_canny.JPG" width="70%">
 </p>
 Kami menguji metode deteksi tepi seperti canny dan Sobel untuk memahami kontur dan bentuk tomat. Analisis ini membantu memastikan bahwa model mampu mengenali batas objek dengan lebih baik, terutama pada kondisi lingkungan yang kompleks atau latar belakang yang bervariasi.
 <p align="center">
@@ -138,8 +138,8 @@ Notebook ini berisi proses:
 - Evaluasi model
 - Visualisasi hasil deteksi
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/drive/1HNkBKiMZ5G526bb8oSrvKHK1k9KyCdWt?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HNkBKiMZ5G526bb8oSrvKHK1k9KyCdWt?usp=sharing)
+
 
 ## 5. Kesimpulan dan Insight
 Berdasarkan hasil evaluasi menggunakan **Confusion Matrix**, model menunjukkan kemampuan klasifikasi yang sangat kuat. Tidak ditemukan kasus tomat matang yang salah diklasifikasikan sebagai tomat mentah. Meskipun terdapat tantangan pada kondisi oklusi (objek terhalang daun atau batang), sistem secara keseluruhan telah menunjukkan performa yang sangat layak untuk menggantikan inspeksi manual.
