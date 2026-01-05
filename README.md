@@ -134,10 +134,12 @@ Kecepatan ini menjadikan sistem sangat ideal untuk:
 #### Hasil Testing 
 <p align="center">
   <img src="contoh_hasil_testing.JPG" width="30%">
-  <img src="hasil_deteksi_satu.JPG" width="55%">
+  <img src="hasil_deteksi_satu.JPG" width="30%">
   <img src="hasil_deteksi_dua.JPG" width="20%">
 </p>
-Notebook ini berisi proses:
+
+#### Notebook ini berisi proses:
+
 - Preprocessing dataset
 - Training YOLOv8
 - Evaluasi model
