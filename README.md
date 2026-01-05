@@ -95,7 +95,7 @@ Pengujian pada data yang benar-benar baru menunjukkan hasil yang sangat memuaska
   <img src="hasil_confusion_matrix.JPG" width="70%">
 </p>
 Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat baik pada data evaluasi, ditandai dengan tingginya jumlah prediksi benar pada kelas tomat mentah dan matang serta tidak ditemukannya kesalahan deteksi tomat matang sebagai mentah. Kesalahan yang terjadi sebagian besar disebabkan oleh faktor oklusi dan kondisi pencahayaan yang menyebabkan objek tidak terdeteksi (False Negative), serta kompleksitas latar belakang perkebunan yang memicu kesalahan deteksi objek non-tomat sebagai tomat (False Positive).
----
+
 
 ### 3.3 Hasil Perbandingan Performa Model
 ## Hasil Evaluasi Kinerja Model YOLOv8
@@ -150,4 +150,12 @@ Berdasarkan hasil evaluasi menggunakan **Confusion Matrix**, model menunjukkan k
 Inovasi ini membuktikan bahwa penerapan **Computer Vision dan Deep Learning** mampu meningkatkan efisiensi serta objektivitas dalam industri pertanian, khususnya di Indonesia. Kami berharap pengembangan sistem ini dapat menjadi langkah awal menuju otomatisasi proses pangan yang lebih cerdas, modern, dan berkelanjutan.
 
 ---
+## Dataset
+
+Dataset yang digunakan pada penelitian ini mengacu pada sumber publik Kaggle:
+
+🔗 https://www.kaggle.com/code/sumn2u/yolo-v8-ripe-and-unripe-tomatoes-detection
+
+Dataset ini berisi citra tomat matang dan mentah yang digunakan sebagai referensi dalam proses pelatihan dan evaluasi model YOLOv8.
+
 
