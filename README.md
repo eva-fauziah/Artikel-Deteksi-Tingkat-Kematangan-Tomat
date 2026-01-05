@@ -49,17 +49,15 @@ Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selam
 </p>
 Kami menguji metode deteksi tepi seperti canny dan Sobel untuk memahami kontur dan bentuk tomat. Analisis ini membantu memastikan bahwa model mampu mengenali batas objek dengan lebih baik, terutama pada kondisi lingkungan yang kompleks atau latar belakang yang bervariasi.
 <p align="center">
-  <img src="kerapatan_tepi.JPG" width="70%">
+  <img src="kerapatan_tepi.JPG" width="50%">
 </p>
 Dari uraian di atas, kita dapat melihat frekuensi dan kepadatan tepi dari setiap teknik. Untuk mendeteksi detail yang lebih halus atau tepi yang lebih kuat, frekuensi yang lebih tinggi lebih baik.
 
 ### 2.3 Dataset Seimbang
 <p align="center">
-  <img src="distribusi_kelas.JPG" width="70%">
+  <img src="distribusi_kelas.JPG" width="50%">
 </p>
-Dataset yang digunakan terdiri dari:
-- **440 objek tomat mentah**
-- **429 objek tomat matang**
+Dataset yang digunakan terdiri dari 440 objek tomat mentah dan 429 objek tomat matang.
 
 Distribusi yang seimbang ini penting untuk menghindari bias model terhadap salah satu kelas dan meningkatkan kemampuan generalisasi sistem.
 
@@ -76,7 +74,7 @@ Lebar gambar 1374,88 piksel dan Tinggi 991,36 piksel. Analisis ukuran gambar dat
 Model dilatih selama **150 epoch** dengan dukungan GPU. Evaluasi performa dilakukan menggunakan metrik **Intersection over Union (IoU)**, yang mengukur tingkat tumpang tindih antara bounding box prediksi dan ground truth:
 
 <p align="center">
-  <img src="rumus_iou.JPG" width="70%">
+  <img src="rumus_iou.JPG" width="30%">
 </p>
 
 ### 3.1 Hasil Performa Model
@@ -88,6 +86,36 @@ Pengujian pada data yang benar-benar baru menunjukkan hasil yang sangat memuaska
 - **mAP@0.5: 91,8%**  
   Menunjukkan akurasi deteksi yang sangat tinggi dan sebanding dengan model deteksi kematangan kelas *state-of-the-art*.
 
+---
+### 3.2 Hasil Confusion Matrix
+<p align="center">
+  <img src="hasil_confusion_matrix.JPG" width="30%">
+</p>
+Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat baik pada data evaluasi, ditandai dengan tingginya jumlah prediksi benar pada kelas tomat mentah dan matang serta tidak ditemukannya kesalahan deteksi tomat matang sebagai mentah. Kesalahan yang terjadi sebagian besar disebabkan oleh faktor oklusi dan kondisi pencahayaan yang menyebabkan objek tidak terdeteksi (False Negative), serta kompleksitas latar belakang perkebunan yang memicu kesalahan deteksi objek non-tomat sebagai tomat (False Positive).
+---
+
+### 3.3 Hasil Perbandingan Performa Model
+## Hasil Evaluasi Kinerja Model YOLOv8
+
+| Kategori | Metrik / Tahap | Training | Evaluasi |
+|---------|---------------|----------|----------|
+| **All Class** | Precision | 0,899 | 0,901 |
+|  | Recall | 0,810 | 0,844 |
+|  | mAP@0.5 | 0,918 | 0,916 |
+|  | mAP@0.5:0.95 | 0,590 | 0,590 |
+| **Mentah** | Precision | 0,826 | 0,861 |
+|  | Recall | 0,926 | 0,926 |
+|  | mAP@0.5 | 0,925 | 0,921 |
+|  | mAP@0.5:0.95 | 0,595 | 0,589 |
+| **Matang** | Precision | 0,971 | 0,942 |
+|  | Recall | 0,694 | 0,762 |
+|  | mAP@0.5 | 0,912 | 0,911 |
+|  | mAP@0.5:0.95 | 0,585 | 0,590 |
+| **Kecepatan** | Preprocessing | 0,2 ms | 5,1 ms |
+|  | Inferensi | 24,3 ms | 27,1 ms |
+|  | Postprocessing | 1,6 ms | 2,2 ms |
+
+Model YOLOv8 menunjukkan generalisasi yang baik karena performa pada tahap evaluasi setara atau sedikit lebih baik dibandingkan training, dengan nilai akurasi (mAP) yang stabil dan konsisten. Model sangat andal mendeteksi tomat mentah (recall tinggi) dan akurat dalam mendeteksi tomat matang (precision tinggi), dengan peningkatan kemampuan menemukan objek matang pada data evaluasi. Dari sisi kecepatan, meskipun inferensi evaluasi sedikit lebih lambat, model tetap efisien dan layak untuk aplikasi real-time.
 ---
 
 ## 4. Keunggulan Sistem Real-Time
