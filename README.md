@@ -33,12 +33,12 @@ Sebelum proses pelatihan model, kami melakukan analisis mendalam terhadap **177 
 Hasil analisis menunjukkan bahwa:
 - **Tomat matang** memiliki dominansi kanal **Merah (Red)** yang kuat.
 <p align="center">
-  <img src="gambar_warna_garis_tomat_matang.jpg" width="70%">
+  <img src="gambar_warna_garis_tomat_matang.JPG" width="70%">
 </p>
 
 - **Tomat mentah** lebih didominasi kanal **Hijau (Green)**.
  <p align="center">
-  <img src="gambar_warna_garis_tomat_mentah.jpg" width="70%">
+  <img src="gambar_warna_garis_tomat_mentah.JPG" width="70%">
 </p>
 
 Perbedaan distribusi warna ini mencerminkan proses fisiologis dan biokimia selama pematangan tomat. Informasi warna tersebut menjadi fitur penting yang dimanfaatkan oleh model untuk membedakan tingkat kematangan.
