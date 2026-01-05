@@ -10,8 +10,8 @@ Muhammad Fikri Firmansyah
 
 **Proyek Akhir Semester – Computer Vision**
 <p align="center">
-  <img src="contoh_hasil_testing.JPG" width="30%">
-  <img src="gambar_contoh_deteksi_lima.JPG" width="70%">
+  <img src="contoh_hasil_testing.JPG" width="20%">
+  <img src="gambar_contoh_deteksi_lima.JPG" width="60%">
 </p>
 
 
@@ -140,13 +140,13 @@ Notebook ini berisi proses:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HNkBKiMZ5G526bb8oSrvKHK1k9KyCdWt?usp=sharing)
 
-## 🚀 Demo Model (Google Colab)
+## Demo Model
 <p align="center">
   <img src="gambar_contoh_deteksi_fix.JPG" width="30%">
 </p>
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/drive/17EFfH32_r2t9UXdSpfnyNOXeBllJlfSZ?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17EFfH32_r2t9UXdSpfnyNOXeBllJlfSZ?usp=sharing)
+
 
 ## Dataset
 
