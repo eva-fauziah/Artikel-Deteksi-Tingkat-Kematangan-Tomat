@@ -131,7 +131,12 @@ Kecepatan ini menjadikan sistem sangat ideal untuk:
 
 ---
 ##  Notebook Eksperimen
-
+#### Hasil Testing 
+<p align="center">
+  <img src="contoh_hasil_testing.JPG" width="30%">
+  <img src="hasil_deteksi_satu.JPG" width="55%">
+  <img src="hasil_deteksi_dua.JPG" width="20%">
+</p>
 Notebook ini berisi proses:
 - Preprocessing dataset
 - Training YOLOv8
@@ -151,7 +156,7 @@ Notebook ini berisi proses:
   <img src="gambar_video.JPG" width="30%">
 </p>
 
-#### Deteksi Tomat 
+#### Demo Deteksi Tomat 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17EFfH32_r2t9UXdSpfnyNOXeBllJlfSZ?usp=sharing)
 
 
