@@ -98,7 +98,7 @@ Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat 
 
 
 ### 3.3 Hasil Perbandingan Performa Model
-## Hasil Evaluasi Kinerja Model YOLOv8
+#### Hasil Evaluasi Kinerja Model YOLOv8
 
 | Kategori | Metrik / Tahap | Training | Evaluasi |
 |---------|---------------|----------|----------|
