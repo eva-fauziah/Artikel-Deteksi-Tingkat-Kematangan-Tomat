@@ -11,7 +11,7 @@ Muhammad Fikri Firmansyah
 **Proyek Akhir Semester – Computer Vision**
 <p align="center">
   <img src="contoh_hasil_testing.JPG" width="30%">
-  <img src="Deteksi_Satu.JPG" width="50%">
+  <img src="Deteksi_Satu.JPG" width="55%">
 </p>
 
 
@@ -150,12 +150,12 @@ Kecepatan ini menjadikan sistem sangat ideal untuk:
 ## Demo Model
 #### Hasil Web Kamera
 <p align="center">
-  <img src="Deteksi_Empat.JPG" width="30%">
+  <img src="Deteksi_Empat.JPG" width="50%">
 </p>
 
 #### Hasil Video
 <p align="center">
-  <img src="Deteksi_Dua.JPG" width="30%">
+  <img src="Deteksi_Dua.JPG" width="50%">
 </p>
 
 #### Demo Deteksi Tomat 
