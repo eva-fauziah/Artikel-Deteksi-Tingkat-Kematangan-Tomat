@@ -1,4 +1,4 @@
-# Artikel-Deteksi-Tingkat-Kematangan-Tomat
+### Artikel-Deteksi-Tingkat-Kematangan-Tomat
 Membuat artikel tentang hasil projek deteksi dan klasifikasi tingkat kematangan tomat
 # Revolusi Agrikultur: Deteksi Otomatis Kematangan Tomat dengan Deep Learning YOLOv8 
 
