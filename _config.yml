@@ -1,8 +1,6 @@
-# Nama tema GitHub Pages
+
 theme: jekyll-theme-eminent
 
-# Judul situs (opsional)
 title: "Deteksi Kematangan Tomat"
 
-# Deskripsi singkat (opsional)
 description: "Artikel ilmiah online – YOLOv8 tomato ripeness detection"
