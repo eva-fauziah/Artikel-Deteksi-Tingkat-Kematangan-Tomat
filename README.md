@@ -94,8 +94,10 @@ Pengujian pada data yang benar-benar baru menunjukkan hasil yang sangat memuaska
 <p align="center">
   <img src="hasil_confusion_matrix.JPG" width="70%">
 </p>
-Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat baik pada data evaluasi, ditandai dengan tingginya jumlah prediksi benar pada kelas tomat mentah dan matang serta tidak ditemukannya kesalahan deteksi tomat matang sebagai mentah. Kesalahan yang terjadi sebagian besar disebabkan oleh faktor oklusi dan kondisi pencahayaan yang menyebabkan objek tidak terdeteksi (False Negative), serta kompleksitas latar belakang perkebunan yang memicu kesalahan deteksi objek non-tomat sebagai tomat (False Positive).
-
+Dari hasil Confusion Matrix, model menunjukkan performa klasifikasi yang sangat baik pada data evaluasi, ditandai dengan tingginya jumlah prediksi benar pada kelas tomat mentah dan matang serta tidak ditemukannya kesalahan deteksi tomat matang sebagai mentah. Kesalahan yang terjadi sebagian besar disebabkan oleh faktor oklusi dan kondisi pencahayaan yang menyebabkan objek tidak terdeteksi (False Negative), serta kompleksitas latar belakang perkebunan yang memicu kesalahan deteksi objek non-tomat sebagai tomat (False Positive). Contoh gambar berikut, dimana daun terdeteksi sebagai buah mentah:
+<p align="center">
+  <img src="Deteksi_Lima.JPG" width="50%">
+</p>
 
 ### 3.3 Hasil Perbandingan Performa Model
 #### Hasil Evaluasi Kinerja Model YOLOv8
